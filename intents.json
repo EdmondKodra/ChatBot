@@ -1,0 +1,424 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hello","Hey","Good day","How are you?","What's up","Howdy","Hey there","Hi Bot","Yo","Hi there","Greetings"],
+      "responses": ["Hello! Welcome to CarBot.","Hi there! How can I help you with cars today?","Hey! Looking for a car?","Hello! Need help choosing a car?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye","goodbye","see you","ttyl","I am leaving","catch you later","see ya","farewell","talk soon"],
+      "responses": ["Goodbye! Drive safe!","See you later!","Come back if you have more car questions.","Bye! Take care!"],
+      "context_set": ""
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who created you","your creator","who made you","who designed you"],
+      "responses": ["I was created by Edmond Kodra."],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name","your name","who are you","can I know your name","identify yourself"],
+      "responses": ["I am CarBot, your vehicle assistant.","You can call me CarBot."],
+      "context_set": ""
+    },
+    {
+      "tag": "brands",
+      "patterns": ["list of car brands","popular car brands","which car brands do you know","car brands","famous car brands","brand names"],
+      "responses": ["I can tell you about Toyota, BMW, Mercedes, Ford, Honda, Tesla, Audi, Kia, Hyundai, Nissan, Chevrolet, Volkswagen, Jaguar, Porsche, and many more."],
+      "context_set": ""
+    },
+    {
+      "tag": "models",
+      "patterns": ["popular models","car models","Toyota models","BMW models","Tesla models","Honda models","latest car models","new car models","sedan models","SUV models","hatchback models"],
+      "responses": ["Each brand has several models. For example, Toyota has Corolla, Camry, RAV4, and Prius. BMW has X3, X5, 3 Series, 5 Series. Tesla has Model 3, Model S, Model X, Model Y."],
+      "context_set": ""
+    },
+    {
+      "tag": "fuel",
+      "patterns": ["fuel type","petrol or diesel","what fuel does it use","electric car","hybrid car","gasoline","EV","energy type"],
+      "responses": ["Cars can use petrol, diesel, electric, or hybrid depending on the model."],
+      "context_set": ""
+    },
+    {
+      "tag": "transmission",
+      "patterns": ["automatic or manual","gear type","manual transmission","automatic transmission","CVT","dual clutch","transmission system","gearbox type"],
+      "responses": ["Cars may have manual, automatic, CVT, or dual-clutch transmission depending on the model."],
+      "context_set": ""
+    },
+    {
+      "tag": "price",
+      "patterns": ["car price","how much does it cost","affordable cars","budget cars","expensive cars","luxury cars","pricing","car cost estimate","MSRP","price range"],
+      "responses": ["Car prices vary by brand and model. Can you specify which one or your budget?"],
+      "context_set": ""
+    },
+    {
+      "tag": "features",
+      "patterns": ["car features","what features does it have","safety features","comfort features","infotainment","sunroof","GPS","airbags","parking sensors","lane assist","adaptive cruise","automatic braking"],
+      "responses": ["Most cars come with airbags, ABS, touchscreen infotainment, AC, GPS navigation, parking sensors, sunroof, lane assist, adaptive cruise control, and automatic emergency braking."],
+      "context_set": ""
+    },
+    {
+      "tag": "maintenance",
+      "patterns": ["car maintenance","how to maintain car","service interval","car repair","oil change","tire check","battery check","car servicing","garage service","routine maintenance"],
+      "responses": ["Regular maintenance includes oil change, tire check, brake check, battery service, fluid levels, and periodic servicing as per the manufacturer."],
+      "context_set": ""
+    },
+    {
+      "tag": "test_drive",
+      "patterns": ["test drive","can I test drive","how to test drive","try car","book test drive","test drive booking","schedule test drive","test drive appointment"],
+      "responses": ["You can book a test drive at the nearest dealership or online via the official brand website."],
+      "context_set": ""
+    },
+    {
+      "tag": "electric",
+      "patterns": ["electric car","EV","battery car","charging car","Tesla","Nissan Leaf","electric vehicles","EV range","EV charging"],
+      "responses": ["Electric cars run on battery and need charging. Popular models include Tesla Model 3, Nissan Leaf, Hyundai Kona Electric, and Jaguar I-Pace."],
+      "context_set": ""
+    },
+    {
+      "tag": "hybrid",
+      "patterns": ["hybrid car","hybrid vehicle","Toyota Prius","fuel efficient car","plug-in hybrid","hybrid SUV"],
+      "responses": ["Hybrid cars use a combination of petrol and electric power. Examples include Toyota Prius, Honda Insight, and Ford Escape Hybrid."],
+      "context_set": ""
+    },
+    {
+      "tag": "colors",
+      "patterns": ["car colors","available colors","color options","red car","white car","black car","blue car","silver car","gold car"],
+      "responses": ["Cars are available in multiple colors including black, white, red, blue, silver, grey, and gold."],
+      "context_set": ""
+    },
+    {
+      "tag": "insurance",
+      "patterns": ["car insurance","insurance options","insurance cost","vehicle insurance","renew insurance","insure car","insurance plan"],
+      "responses": ["Car insurance is mandatory and can be purchased online or via insurance providers. Premium depends on car model, age, and coverage."],
+      "context_set": ""
+    },
+    {
+      "tag": "warranty",
+      "patterns": ["warranty period","car warranty","manufacturer warranty","service warranty","extended warranty","guarantee period"],
+      "responses": ["Most new cars come with 3-5 years warranty depending on the brand and model. Extended warranties may also be available."],
+      "context_set": ""
+    },
+    {
+      "tag": "financing",
+      "patterns": ["car loan","car finance","EMI","installment","loan options","buy on finance","vehicle financing","car payment plan"],
+      "responses": ["Car loans and financing options are available from banks and financial institutions. EMI depends on car price and interest rate."],
+      "context_set": ""
+    },
+    {
+      "tag": "accessories",
+      "patterns": ["car accessories","extras","add-ons","GPS","music system","seat covers","customization","floor mats","spoilers","alloy wheels"],
+      "responses": ["Cars can be customized with accessories like GPS, music systems, seat covers, alloy wheels, floor mats, spoilers, and roof racks."],
+      "context_set": ""
+    },
+    {
+      "tag": "mileage",
+      "patterns": ["fuel efficiency","mileage","km per liter","mpg","how far can car go","fuel consumption"],
+      "responses": ["Mileage depends on the model and engine type. Petrol cars typically give 12-18 km/l, diesel 15-22 km/l, electric cars depend on battery capacity."],
+      "context_set": ""
+    },
+    {
+      "tag": "safety",
+      "patterns": ["safety ratings","crash test","airbags","ABS","lane assist","ESC","safety features","car crash ratings"],
+      "responses": ["Cars are rated based on crash test results, airbags, ABS, electronic stability control, and other safety features. Always check NCAP ratings."],
+      "context_set": ""
+    },
+    {
+      "tag": "dealership",
+      "patterns": ["car showroom","nearest dealership","where to buy car","dealer location","car sales","official dealer"],
+      "responses": ["You can visit the nearest authorized dealership for brand and model availability, or check online websites for showroom locations."],
+      "context_set": ""
+    },
+    {
+      "tag": "used_cars",
+      "patterns": ["used cars","second hand cars","pre-owned cars","buy used car","resale car","certified pre-owned"],
+      "responses": ["Used cars are available from certified dealers or online platforms. Check mileage, service history, and condition before buying."],
+      "context_set": ""
+    },
+    {
+      "tag": "car_comparison",
+      "patterns": ["compare cars","car comparison","Toyota vs Honda","BMW vs Audi","sedan comparison","SUV comparison"],
+      "responses": ["I can provide specs and feature comparison for different models. Specify the brands or models you want to compare."],
+      "context_set": ""
+    },
+    {
+      "tag": "car_type",
+      "patterns": ["SUV","sedan","hatchback","coupe","convertible","minivan","crossover","pickup truck","sports car","luxury car","compact car","full-size SUV"],
+      "responses": ["Cars come in various types like SUV, sedan, hatchback, coupe, convertible, minivan, crossover, pickup, sports car, luxury car, and compact cars."]
+    },
+    {
+      "tag": "engine_specs",
+      "patterns": ["engine size","horsepower","torque","V6","V8","inline 4","electric motor power","engine capacity","displacement","turbo engine","supercharged engine"],
+      "responses": ["Engine specs include size (cc), horsepower (hp), torque (Nm), and type like V6, V8, inline 4, turbocharged or electric motors."]
+    },
+    {
+      "tag": "year_of_manufacture",
+      "patterns": ["year model","manufacture year","production year","car release year","model year","made in year"],
+      "responses": ["Cars are identified by their model year, e.g., Toyota Corolla 2022, BMW X5 2023, Tesla Model 3 2024."]
+    },
+    {
+      "tag": "trim_levels",
+      "patterns": ["trim level","base model","premium trim","sport trim","limited edition","luxury trim","high-end trim"],
+      "responses": ["Most cars have multiple trims such as base, sport, premium, limited edition, or luxury trims with different features and pricing."]
+    },
+    {
+      "tag": "fuel_economy",
+      "patterns": ["mileage","fuel efficiency","mpg","km per liter","fuel consumption","eco mode","economical car"],
+      "responses": ["Fuel economy depends on engine type and car model. Petrol cars: 12-18 km/l, Diesel: 15-22 km/l, Electric cars: depends on battery range."]
+    },
+    {
+      "tag": "luxury_features",
+      "patterns": ["leather seats","sunroof","panoramic roof","premium audio","ambient lighting","heated seats","ventilated seats","advanced infotainment"],
+      "responses": ["Luxury cars include features like leather seats, sunroof, premium audio systems, ambient lighting, heated and ventilated seats, and advanced infotainment."]
+    },
+    {
+      "tag": "car_reviews",
+      "patterns": ["car review","vehicle rating","expert opinion","user reviews","car feedback","customer ratings"],
+      "responses": ["You can find car reviews on automotive websites, YouTube, or consumer reports to learn about reliability, performance, and comfort."]
+    },
+    {
+      "tag": "recalls",
+      "patterns": ["car recall","vehicle recall","safety recall","recall notice","manufacturer recall","defective parts"],
+      "responses": ["Car recalls happen if there is a safety issue. You can check the manufacturer website or government recall databases for updates."]
+    },
+    {
+      "tag": "roadside_assistance",
+      "patterns": ["roadside assistance","breakdown help","towing service","emergency help","car support","24/7 assistance"],
+      "responses": ["Most manufacturers and insurance plans provide roadside assistance including towing, battery jump-start, flat tire change, and emergency fuel delivery."]
+    },
+    {
+      "tag": "tire_info",
+      "patterns": ["tire size","tire type","all-season tires","summer tires","winter tires","tire pressure","tire replacement","tire maintenance"],
+      "responses": ["Tires come in different sizes and types such as all-season, summer, or winter. Always maintain proper tire pressure and replace them when worn."]
+    },
+    {
+      "tag": "interior_features",
+      "patterns": ["dashboard","infotainment","seat material","legroom","cargo space","climate control","ambient lighting","interior design"],
+      "responses": ["Interior features include dashboard layout, infotainment system, seat material, legroom, cargo space, climate control, ambient lighting, and design quality."]
+    },
+    {
+      "tag": "exterior_features",
+      "patterns": ["LED headlights","fog lights","alloy wheels","roof rails","rear spoiler","body color options","sunroof","car exterior design"],
+      "responses": ["Exterior features may include LED headlights, fog lights, alloy wheels, roof rails, rear spoiler, sunroof, and various body color options."]
+    },
+    {
+      "tag": "charging_stations",
+      "patterns": ["EV charging stations","where to charge electric car","fast charger","supercharger","public charger","charging points","EV charging network"],
+      "responses": ["You can charge electric cars at home or at public charging stations. Fast chargers or superchargers provide quicker charging."]
+    },
+    {
+      "tag": "wheels_and_rims",
+      "patterns": ["wheel size","rim size","alloy wheels","custom rims","wheel design","wheel options","wheel replacement"],
+      "responses": ["Cars come with different wheel sizes and rim designs. You can customize wheels with alloy or sport rims."]
+    },
+    {
+      "tag": "brakes",
+      "patterns": ["brake system","disc brakes","ABS brakes","brake pads","brake maintenance","emergency brakes","brake performance"],
+      "responses": ["Brake systems include disc brakes, ABS, emergency brakes, and require regular maintenance and pad replacement."]
+    },
+    {
+      "tag": "lighting",
+      "patterns": ["headlights","LED lights","fog lights","taillights","interior lighting","ambient lights","daytime running lights"],
+      "responses": ["Modern cars have LED headlights, fog lights, taillights, ambient interior lighting, and daytime running lights for better visibility."]
+    },
+    {
+      "tag": "entertainment_system",
+      "patterns": ["music system","infotainment","touchscreen","navigation system","Bluetooth audio","Apple CarPlay","Android Auto","rear entertainment"],
+      "responses": ["Cars come with infotainment systems including touchscreen, GPS navigation, Bluetooth audio, Apple CarPlay, Android Auto, and rear entertainment systems."]
+    },
+    {
+      "tag": "suspension",
+      "patterns": ["suspension type","shock absorbers","adaptive suspension","air suspension","ride comfort","handling system"],
+      "responses": ["Suspension types affect ride comfort and handling. Cars may have standard, adaptive, or air suspension systems."]
+    },
+    {
+      "tag": "climate_control",
+      "patterns": ["air conditioning","AC system","dual zone climate","automatic climate control","heater","ventilation system"],
+      "responses": ["Modern cars have climate control systems including AC, heaters, dual-zone or tri-zone automatic climate control, and proper ventilation."]
+    },
+    {
+      "tag": "safety_assist",
+      "patterns": ["lane keeping assist","adaptive cruise control","automatic braking","blind spot monitoring","collision warning","parking assist","driver assist"],
+      "responses": ["Cars can have safety assist technologies like lane keeping assist, adaptive cruise control, automatic braking, blind spot monitoring, collision warning, and parking assist."]
+    },
+    {
+      "tag": "connectivity",
+      "patterns": ["Wi-Fi car","car hotspot","connected car","vehicle telematics","smart car","car apps","remote start app","mobile app control"],
+      "responses": ["Many modern cars offer connectivity features such as Wi-Fi hotspot, smart apps, remote control via mobile, and vehicle telematics."]
+    },
+    {
+      "tag": "offroad_capabilities",
+      "patterns": ["offroad car","4x4","all-wheel drive","ground clearance","offroad tires","differential lock","trail rated"],
+      "responses": ["Offroad capabilities include 4x4 or all-wheel drive, high ground clearance, offroad tires, and differential locks for rough terrain."]
+    },
+    {
+      "tag": "eco_mode",
+      "patterns": ["eco mode","fuel saving mode","economy mode","green driving","efficient driving","low consumption mode"],
+      "responses": ["Many cars have eco mode to reduce fuel consumption, adjust throttle response, and optimize gear shifts for efficient driving."]
+    },
+    {
+      "tag": "autonomous_features",
+      "patterns": ["self-driving car","autonomous car","driverless mode","autopilot","automated driving","level 2 autonomous","level 3 autonomous"],
+      "responses": ["Some cars have autonomous driving features like autopilot, lane guidance, adaptive cruise, and automated driving assistance depending on the level of autonomy."]
+    },
+    {
+      "tag": "engine_specs",
+      "patterns": ["engine type","engine size","horsepower","torque","engine capacity","V6","V8","electric motor power"],
+      "responses": ["Engine specs include type, capacity, horsepower, and torque. Electric cars have motor power instead of engine displacement."]
+    },
+    {
+      "tag": "tire_options",
+      "patterns": ["tire size","winter tires","summer tires","all season tires","tire pressure","tire replacement","run-flat tires"],
+      "responses": ["Tires vary by size and type: summer, winter, all-season, run-flat. Proper tire pressure is important for safety and efficiency."]
+    },
+    {
+      "tag": "interior_design",
+      "patterns": ["interior materials","seat material","leather seats","dashboard design","ambient lighting","cabin space","legroom"],
+      "responses": ["Interior design includes seat material, leather or fabric, dashboard design, ambient lighting, cabin space, and legroom."]
+    },
+    {
+      "tag": "exterior_design",
+      "patterns": ["car design","aerodynamics","body style","spoiler","headlight design","grille design","paint finish","LED lights"],
+      "responses": ["Exterior design includes aerodynamics, body style, grille, spoiler, headlight design, and paint finish."]
+    },
+    {
+      "tag": "infotainment_apps",
+      "patterns": ["Spotify in car","navigation apps","Apple CarPlay apps","Android Auto apps","music streaming in car","smart apps in car"],
+      "responses": ["Modern cars support music streaming apps, navigation apps, Apple CarPlay, Android Auto, and other smart infotainment apps."]
+    },
+    {
+      "tag": "charging_time",
+      "patterns": ["EV charging time","fast charge","supercharger time","home charger time","battery charging speed","full charge duration"],
+      "responses": ["Charging time depends on battery capacity and charger type. Fast chargers can charge EVs in under 1 hour, home chargers may take several hours."]
+    },
+    {
+      "tag": "cargo_space",
+      "patterns": ["trunk size","cargo capacity","boot space","storage space","foldable seats","luggage capacity"],
+      "responses": ["Cargo space includes trunk size, storage compartments, foldable rear seats, and total luggage capacity."]
+    },
+    {
+      "tag": "driving_modes",
+      "patterns": ["sport mode","eco mode","comfort mode","offroad mode","driving settings","performance mode"],
+      "responses": ["Driving modes adjust throttle, suspension, steering, and transmission for sport, eco, comfort, or offroad conditions."]
+    },
+    {
+      "tag": "towing_capacity",
+      "patterns": ["towing","towing limit","trailer capacity","tow hitch","payload capacity","maximum tow"],
+      "responses": ["Towing capacity depends on vehicle type. SUVs and trucks usually have higher towing limits compared to sedans."]
+    },
+    {
+      "tag": "recall_info",
+      "patterns": ["car recall","safety recall","manufacturer recall","recall notice","vehicle recall info"],
+      "responses": ["Recall information can be found on the manufacturer’s website. It’s important to address recalls promptly for safety."]
+    },
+    {
+      "tag": "fuel_tank",
+      "patterns": ["fuel tank size","tank capacity","range per full tank","refuel frequency","petrol tank size","diesel tank capacity"],
+      "responses": ["Fuel tank size varies by model. Petrol tanks usually hold 40-70 liters, diesel slightly more, affecting driving range."]
+    },
+    {
+      "tag": "road_assist",
+      "patterns": ["roadside assistance","breakdown service","emergency service","tow service","car help on road","vehicle support"],
+      "responses": ["Many manufacturers offer roadside assistance programs including towing, flat tire help, jump start, and emergency support."]
+    },
+    {
+    "tag": "suggest_car",
+    "patterns": ["suggest me a car","recommend a car","which car should I buy","give me a car suggestion","I need a car","help me choose a car","car recommendation"],
+    "responses": [
+        "If you want an affordable and reliable car, I suggest Toyota Corolla or Honda Civic.",
+        "For a luxury experience, consider BMW 5 Series or Mercedes E-Class.",
+        "If you prefer electric, Tesla Model 3 or Hyundai Kona Electric are great options.",
+        "For SUVs, Toyota RAV4, Honda CR-V, or BMW X3 are solid choices.",
+        "If fuel efficiency is your priority, Toyota Prius or Honda Insight are excellent hybrids."]
+    },
+    {
+  "tag": "suggest_car_under_5k",
+  "patterns": [
+    "suggest me a car under 5k",
+    "recommend a car under 5k",
+    "car suggestion under 5k"
+  ],
+  "responses": [
+    "Under $5,000, you can consider: Honda Civic (2005-2008), Toyota Corolla (2004-2007), Ford Focus (2006-2009)."
+  ]
+},
+{
+  "tag": "suggest_car_under_10k",
+  "patterns": [
+    "suggest me a car under 10k",
+    "recommend a car under 10k",
+    "car suggestion under 10k"
+  ],
+  "responses": [
+    "Under $10,000, you can consider: Honda Civic (2010-2014), Toyota Corolla (2010-2014), Hyundai Elantra (2012-2015)."
+  ]
+},
+{
+  "tag": "suggest_car_under_20k",
+  "patterns": [
+    "suggest me a car under 20k",
+    "recommend a car under 20k",
+    "car suggestion under 20k"
+  ],
+  "responses": [
+    "Under $20,000, you can get: Toyota Camry (2016+), Honda Accord (2016+), Mazda 3 (2017+)."
+  ]
+},
+{
+  "tag": "suggest_car_under_50k",
+  "patterns": [
+    "suggest me a car under 50k",
+    "recommend a car under 50k",
+    "car suggestion under 50k"
+  ],
+  "responses": [
+    "Under $50,000, options include: BMW 3 Series, Audi A4, Mercedes C-Class, Tesla Model 3."
+  ]
+},
+{
+  "tag": "suggest_car_under_100k",
+  "patterns": [
+    "suggest me a car under 100k",
+    "recommend a car under 100k",
+    "car suggestion under 100k"
+  ],
+  "responses": [
+    "Under $100,000, you could go for: BMW 5 Series, Audi A6, Mercedes E-Class, Porsche Macan."
+  ]
+},
+{
+  "tag": "suggest_car_above_100k",
+  "patterns": [
+    "suggest me a car above 100k",
+    "recommend a car above 100k",
+    "car suggestion above 100k"
+  ],
+  "responses": [
+    "Above $100,000, consider: Tesla Model S, Porsche 911, Mercedes S-Class, BMW 7 Series."
+  ]
+},
+{
+  "tag": "thanks",
+  "patterns": [
+    "thanks",
+    "thank you",
+    "thx",
+    "thanks a lot",
+    "thank you very much",
+    "thanks for help",
+    "ty"
+  ],
+  "responses": [
+    "You're welcome! ",
+    "No problem! Glad I could help.",
+    "Anytime! Let me know if you need more car info.",
+    "Happy to help!"
+  ]
+}
+
+    
+  ]
+}
