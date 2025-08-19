@@ -21,6 +21,6 @@ Karakteristikat Kryesore 🎯
 Si të klononi projektin 📂
 cd ChatBot
 
-pip install pandas scikit-learn streamlit
+pip install scikit-learn streamlit
 
-python -m streamlit run SpamDetection.py
+python -m streamlit run ChatBot.py
