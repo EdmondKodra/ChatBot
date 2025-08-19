@@ -19,8 +19,9 @@ Karakteristikat Kryesore 🎯
 💰 Financa & Sigurim: Informacione mbi EMI, sigurime dhe garanci.
 
 Si të klononi projektin 📂
-cd ChatBot
 
-pip install scikit-learn streamlit
+  • cd ChatBot
 
-python -m streamlit run ChatBot.py
+  • pip install scikit-learn streamlit
+
+  • python -m streamlit run ChatBot.py
