@@ -28,7 +28,7 @@ def ChatBot(input_message):
             return random.choice(intent['responses'])
     return "?"
 
-st.title("EchoBot Cars")
+st.title("ChatBot Cars")
 
 
 if "messages" not in st.session_state:
@@ -51,4 +51,5 @@ if prompt := st.chat_input("What is up?"):
     with st.chat_message("assistant"):
         st.markdown(response)
     
+
     st.session_state.messages.append({"role": "assistant", "content": response})
