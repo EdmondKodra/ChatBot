@@ -18,3 +18,9 @@ Karakteristikat Kryesore 🎯
 
 💰 Financa & Sigurim: Informacione mbi EMI, sigurime dhe garanci.
 
+Si të klononi projektin 📂
+cd ChatBot
+
+pip install pandas scikit-learn streamlit
+
+python -m streamlit run SpamDetection.py
