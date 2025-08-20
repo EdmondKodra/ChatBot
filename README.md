@@ -26,7 +26,12 @@ ChatBot-Cars është një chatbot inteligjent i dizajnuar për t’ju ndihmuar t
   
 - Pandas, NumPy
   
-- Streamlit  
+- Streamlit
+
+🖼️ Demo
+
+🎥 Video: Shiko demonstrimin
+ (https://www.youtube.com/watch?v=O_afOGTNK88).
 
 ## Si të klononi projektin 📂
 
