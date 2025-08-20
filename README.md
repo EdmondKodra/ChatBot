@@ -30,8 +30,8 @@ ChatBot-Cars është një chatbot inteligjent i dizajnuar për t’ju ndihmuar t
 
 🖼️ Demo
 
-🎥 Video: Shiko demonstrimin
- (https://www.youtube.com/watch?v=O_afOGTNK88).
+ ## 🎥 Video: 
+ Shiko demonstrimin: (https://www.youtube.com/watch?v=O_afOGTNK88).
 
 ## Si të klononi projektin 📂
 
