@@ -28,15 +28,13 @@ ChatBot-Cars është një chatbot inteligjent i dizajnuar për t’ju ndihmuar t
   
 - Streamlit
 
-🖼️ Demo
-
- ## 🎥 Video: 
- Shiko demonstrimin: (https://www.youtube.com/watch?v=O_afOGTNK88).
+## 🖼️ Demo
+🎥 Video: Shiko demonstrimin (https://www.youtube.com/watch?v=O_afOGTNK88).
 
 ## Si të klononi projektin 📂
 
-  • cd ChatBot
+  - cd ChatBot
 
-  • pip install scikit-learn streamlit
+  - pip install scikit-learn streamlit
 
-  • python -m streamlit run ChatBot.py
+  - python -m streamlit run ChatBot.py
