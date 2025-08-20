@@ -18,6 +18,16 @@ Karakteristikat Kryesore 🎯
 
 💰 Financa & Sigurim: Informacione mbi EMI, sigurime dhe garanci.
 
+## 🛠 Teknologjitë
+
+- Python
+  
+- Scikit-learn
+  
+- Pandas, NumPy
+  
+- Streamlit  
+
 Si të klononi projektin 📂
 
   • cd ChatBot
