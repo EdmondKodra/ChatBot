@@ -1,8 +1,8 @@
-ChatBot-Cars 🚗
+## ChatBot-Cars 🚗
 
 ChatBot-Cars është një chatbot inteligjent i dizajnuar për t’ju ndihmuar të eksploroni botën e makinave. Ai mund të ofrojë sugjerime për makina sipas buxhetit, të japë informacione mbi marka, modele, veçori teknike, sigurim, financim dhe shumë më tepër
 
-Karakteristikat Kryesore 🎯
+## Karakteristikat Kryesore 🎯
 
 💡 Sugjerime makina: Merr rekomandime sipas buxhetit dhe preferencave.
 
@@ -28,7 +28,7 @@ Karakteristikat Kryesore 🎯
   
 - Streamlit  
 
-Si të klononi projektin 📂
+## Si të klononi projektin 📂
 
   • cd ChatBot
 
